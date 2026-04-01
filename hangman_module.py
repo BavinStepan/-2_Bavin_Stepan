@@ -65,7 +65,6 @@ def save_unique_words_to_file(filename, played_words):
     except Exception as error:
         print(f"Ошибка при сохранении файла '{filename}': {error}")
 
-# ==================== Выбор слова ====================
 def select_random_word(words, played_words):
     remaining_words = [
         item for item in words
